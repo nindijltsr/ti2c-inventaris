@@ -57,7 +57,6 @@ $result = $db->query($sql);
 
         th {
             background-color: rgb(34, 43, 78, 0.7);
-            /* Latar belakang untuk header */
             font-weight: bold;
             text-align: center;
         }

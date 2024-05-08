@@ -145,7 +145,7 @@ $db->close();
         <div class="update-message">
             <?= $update_message ?>
             <?php if ($update_message === "Data berhasil diperbarui.") : ?>
-                <a href="tampilkan.php" class="button">Data Barang</a> <!-- Tombol mengarah ke tampilkan.php -->
+                <a href="tampilkan.php" class="button">Data Barang</a> 
             <?php endif; ?>
         </div>
 

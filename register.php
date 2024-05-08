@@ -143,7 +143,7 @@ if (isset($_POST["register"])) {
             <?php endif; ?>
         </div>
 
-        <!-- Formulir pendaftaran -->
+        <!-- Form Registrasi -->
         <form action="register.php" method="POST">
             <div class="form-group">
                 <label for="no">Nomor</label>
@@ -164,7 +164,7 @@ if (isset($_POST["register"])) {
                 <label for="jumlah">Jumlah Barang </label>
                 <input type="text" id="jumlah" name="jumlah" placeholder="Masukkan Jumlah Barang" required>
             </div>
-        <!-- Baris tombol simpan dan kembali -->
+        <!-- Button -->
         <div class="button-row"> 
                 <a href="index.php" class="button">Kembali ke Beranda</a> 
                 <button type="submit" name="register" class="button" style="font-size: 15px; border-radius: 5px; border:1px solid white; border-color:none; text-decoration: none; transition: background-color 0.3s;">Simpan Data</button>
